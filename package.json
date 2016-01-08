@@ -1,0 +1,54 @@
+{
+  "name": "jspm-react-jasmine-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mackstar/jspm-react-jasmine-boilerplate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mackstar/jspm-react-jasmine-boilerplate/issues"
+  },
+  "homepage": "https://github.com/mackstar/jspm-react-jasmine-boilerplate#readme",
+  "dependencies": {
+    "babel": "^6.3.26",
+    "babel-polyfill": "^6.3.14",
+    "jspm": "^0.16.19",
+    "systemjs": "^0.19.13",
+    "systemjs-builder": "^0.14.15"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.6",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-babel-preprocessor": "^6.0.1",
+    "karma-jasmine": "^0.3.6",
+    "karma-jspm": "^2.0.2",
+    "karma-jsx-preprocessor": "0.0.9",
+    "karma-phantomjs2-launcher": "^0.4.0",
+    "karma-react-preprocessor": "0.0.4"
+  },
+  "jspm": {
+    "directories": {
+      "test": "test"
+    },
+    "dependencies": {
+      "react": "npm:react@^0.14.6",
+      "react-addons-test-utils": "npm:react-addons-test-utils@^0.14.6",
+      "react-dom": "npm:react-dom@^0.14.6"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  }
+}
